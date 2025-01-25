@@ -1,7 +1,9 @@
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
-from django.forms import ModelForm, ModelMultipleChoiceField, CheckboxSelectMultiple
+from django.forms import (
+    ModelForm, ModelMultipleChoiceField, CheckboxSelectMultiple
+)
 
 from taxi.models import Car, Driver
 
